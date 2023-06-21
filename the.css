@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+  background-color: #003ef3b3;
+}
+header h1{
+  color: white;
+  text-align: center;
+}
+section{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px #4262bb9b;
+  padding: 10px;
+  width: 400px;
+  height: 525px;
+  margin: auto;
+}
+input#fano{
+  width: 50px;
+  border-radius: 10px;
+}
+input#botao{
+  border-radius: 10px;
+  width: 70px;
+  height: 45px;
+  margin-left: 10px;
+}
+img#haha{
+  width: 350px;
+  height: 350px;
+}
+footer h3{
+  color: white;
+  text-align: center;
+}

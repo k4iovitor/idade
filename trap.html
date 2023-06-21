@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="the.css">
+     <script src="fato.js"></script>
+     <title>TTF</title>
+   </head>
+   <body>
+     <header>
+       <h1>Verificador de Idade</h1>
+     </header>
+     <section>
+       <div>
+         <p> 
+           <strong>Ano de Nascimento:</strong>
+           <input type="number" name="txtano" id="fano" min="0">
+         </p>
+         <p>
+           <strong>Sexo:</strong>
+           <input type="radio" name="txtsex" id="mas" checked>
+           <label id="mas">Masculino</label>
+           <input type="radio" name="txtsex" id="fem">
+           <label id="fem">Feminino</label>
+         </p>
+         <p>
+           <input type="button" value="Resultado" id="botao" onclick="verificar()">
+         </p>
+       </div>
+       <div id="res">
+         
+       </div>
+     </section>
+     <footer>
+       <i><h3>Desenvolvido pelo Babis</h3></i>
+     </footer>
+   </body>
+</html>
